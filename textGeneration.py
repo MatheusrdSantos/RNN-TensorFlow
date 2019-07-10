@@ -12,7 +12,7 @@ import time
 #print(path_to_file)
 
 # Read, then decode for py2 compat.
-text = open("biblia.txt", 'rb').read().decode(encoding='utf-8')
+text = open("./datasets/biblia.txt", 'rb').read().decode(encoding='utf-8')
 # length of text is the number of characters in it
 print ('Length of text: {} characters'.format(len(text)))
 
